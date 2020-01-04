@@ -1,0 +1,58 @@
+package test_assignment2;
+
+public class Movie {
+
+		int ID = 0;
+		static String Name;
+		static String Showdate;
+		static String Showtime;
+		static String Status;
+		
+		public Movie () {
+			
+		} 
+		public Movie (int ID, String Name, String Showdate, String Showtime, String Status) {
+		super();
+		this.ID = ID;
+		Movie.Name = Name;
+		Movie.Showdate = Showdate;
+		Movie.Showtime = Showtime;
+		Movie.Status = Status;
+		
+		
+		}
+		public int getID() {
+			return ID;
+		}
+		public void setID(int iD) {
+			ID = iD;
+		}
+		public String getName() {
+			return Name;
+		}
+		public void setName(String name) {
+			Name = name;
+		}
+		public String getShowdate() {
+			return Showdate;
+		}
+		public void setShowdate(String showdate) {
+			Showdate = showdate;
+		}
+		public String getShowtime() {
+			return Showtime;
+		}
+		public void setShowtime(String showtime) {
+			Showtime = showtime;
+		}
+		public String getStatus() {
+			return Status;
+		}
+		public void setStatus(String status) {
+			Status = status;
+		}
+	
+	}
+	
+
+
